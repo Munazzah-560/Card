@@ -1,0 +1,21 @@
+.App {
+    font-family: Arial, sans-serif;
+    display:flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 35px;
+    text-align: center;
+ }
+ .productList {
+  display: flex;
+  flex-wrap: nowrap; 
+  justify-content: flex-start;
+  overflow-x: auto;  
+}
+
+.productList::-webkit-scrollbar {
+  display: none; 
+}
